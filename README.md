@@ -33,7 +33,7 @@ The script uses Shotstack's production API. To try it in the sandbox, also set `
 python clips.py "https://example.com/recording.mp4"
 ```
 
-Shotstack fetches the recording from its own servers, so the URL must return the video file itself, not a web page or a redirect to a list of mirrors.
+Shotstack fetches the recording from its own servers, so the URL must return the video file itself, not a web page or a list of download mirrors.
 
 To check the result before rendering everything, render the first clip only, then run the same command again without `--limit`:
 
